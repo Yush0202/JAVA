@@ -9,7 +9,7 @@ public class Block {
         }
         else{
             diff=v2-v1;
-            System.out.println("v1 is not bigger than v2,diff=",+diff);
+            System.out.println("v1 is not bigger than v2,diff="+diff);
         }
     }
 }
