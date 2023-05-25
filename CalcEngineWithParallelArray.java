@@ -1,4 +1,4 @@
-public class CalcEngineWithParallelArrays{
+public class CalcEngineWithParallelArray{
     public static void main(String[]args){
         double [] leftVals={100.0d,25.0d,225.0d,11.0d};
         double [] rightVals={50.0d,92.0d,17.0d,3.0d};
@@ -28,7 +28,7 @@ public class CalcEngineWithParallelArrays{
             }
         }
         for(int j=0;j<opCodes.length;j++){
-            System.out.println(results[i]);
+            System.out.println(results[j]);
         }
     }
 }
